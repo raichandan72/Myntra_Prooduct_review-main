@@ -8,4 +8,5 @@ scrapper.egg-info/
 __pycache__/
 
 # Locally generated data
+
 data_backup/

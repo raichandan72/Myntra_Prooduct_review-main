@@ -21,7 +21,7 @@ except Exception as e:
             self.offline_mode = True
             
         def get_reviews(self, product_name, collection_name=None):
-            # Try to load from local backup
+            # Try to load from -> local backup
             try:
                 backup_dir = os.path.join(os.getcwd(), "data_backup")
                 backup_file = os.path.join(backup_dir, f"{product_name.replace(' ', '_')}.csv")
