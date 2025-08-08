@@ -1,0 +1,11 @@
+# Virtual Environments
+env/
+venv/
+env_old/
+
+# Python build artifacts
+scrapper.egg-info/
+__pycache__/
+
+# Locally generated data
+data_backup/
