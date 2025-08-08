@@ -74,7 +74,7 @@ def form_input():
         )
 
         try:
-            # First try to scrape the data
+            # First try to  scrape the data
             scrapped_data = scrapper.get_review_data()
             if scrapped_data is not None and not scrapped_data.empty:
                 st.session_state["data"] = True
